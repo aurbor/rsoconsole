@@ -3,6 +3,7 @@ import {
   List,
   Datagrid,
   TextField,
+  ChipField,
   EditButton,
   ReferenceField,
 } from "react-admin";
@@ -26,7 +27,7 @@ const TeamList = (props) => {
               source="divName"
               reference="divisions"
             >
-              <TextField source="divName" />
+              <ChipField source="divName" variant="outline" />
             </ReferenceField>
 
             <EditButton />
