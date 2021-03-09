@@ -55,6 +55,14 @@
       "ufaYear": "2021",
       "salary": 14000000,
       "id": "fC0IANH"
+    },
+    {
+      "name": "David Moore",
+      "position": "Wide Receiver",
+      "nflTeam": "Seattle Seahawks",
+      "ufaYear": "2022",
+      "salary": 7000000,
+      "id": "tX_9TZO"
     }
   ],
   "nflteams": [
