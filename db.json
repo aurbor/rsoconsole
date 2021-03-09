@@ -69,43 +69,183 @@
     {
       "id": "1",
       "teamName": "Seattle Seahawks",
-      "division": "NFC West",
       "teamLogo": {
         "rawFile": {
           "path": "seahawks.png"
         },
         "src": "blob:http://localhost:3000/80f06ba4-f224-4052-abb7-863929aa6a00",
         "title": "seahawks.png"
-      }
+      },
+      "divName": "4"
     },
     {
       "id": "2",
       "teamName": "Arizona Cardinals",
-      "division": "NFC West",
       "teamLogo": {
         "rawFile": {
           "path": "cardinals.png"
         },
         "src": "blob:http://localhost:3000/63abfb98-cf47-46b0-84a4-aa504dfdcd9e",
         "title": "cardinals.png"
-      }
+      },
+      "divName": "4"
     },
     {
       "id": "3",
       "teamName": "San Francisco 49ers",
-      "division": "NFC West"
+      "divName": "4"
     },
     {
       "id": "4",
       "teamName": "Los Angeles Rams",
-      "division": "NFC West",
       "teamLogo": {
         "rawFile": {
           "path": "rams.png"
         },
         "src": "blob:http://localhost:3000/37b6b9aa-3ea3-47dc-96ff-89162354dfd7",
         "title": "rams.png"
-      }
+      },
+      "divName": "4"
+    },
+    {
+      "teamName": "Chicago Bears",
+      "divName": "1",
+      "id": "OlBWOcv"
+    },
+    {
+      "teamName": "Minnesota Vikings",
+      "divName": "1",
+      "id": "zV3ZuQ1"
+    },
+    {
+      "teamName": "Green Bay Packers",
+      "divName": "1",
+      "id": "Xbo3Csi"
+    },
+    {
+      "teamName": "Detroit Lions",
+      "divName": "1",
+      "id": "dlLEMaY"
+    },
+    {
+      "divName": "2",
+      "teamName": "Dallas Cowboys",
+      "id": "R_tlslf"
+    },
+    {
+      "teamName": "Philadelphia Eagles",
+      "divName": "2",
+      "id": "s6agddd"
+    },
+    {
+      "teamName": "Washington Football Team",
+      "divName": "2",
+      "id": "eN7pk6r"
+    },
+    {
+      "teamName": "New York Giants",
+      "divName": "2",
+      "id": "PecY4Fq"
+    },
+    {
+      "teamName": "New Orleans Saints",
+      "divName": "3",
+      "id": "UZv6YhQ"
+    },
+    {
+      "teamName": "Tampa Bay Buccaneers",
+      "divName": "3",
+      "id": "GtmL23i"
+    },
+    {
+      "teamName": "Carolina Panthers",
+      "divName": "3",
+      "id": "XGuuk5R"
+    },
+    {
+      "teamName": "Atlanta Falcons",
+      "divName": "3",
+      "id": "7rTtEJk"
+    },
+    {
+      "divName": "5",
+      "teamName": "Pittsburgh Steelers",
+      "id": "YamKfOo"
+    },
+    {
+      "teamName": "Cleveland Browns",
+      "divName": "5",
+      "id": "MGwS8OE"
+    },
+    {
+      "teamName": "Cincinnati Bengals",
+      "divName": "5",
+      "id": "LTWdVHc"
+    },
+    {
+      "teamName": "Baltimore Ravens",
+      "divName": "5",
+      "id": "lS73xmC"
+    },
+    {
+      "divName": "6",
+      "teamName": "New England Patriots",
+      "id": "z0H0mhH"
+    },
+    {
+      "divName": "6",
+      "teamName": "Buffalo Bills",
+      "id": "2Ta9CZc"
+    },
+    {
+      "teamName": "Miami Dolphins",
+      "divName": "6",
+      "id": "nYOSiMz"
+    },
+    {
+      "teamName": "New York Jets",
+      "divName": "6",
+      "id": "r_LOwTd"
+    },
+    {
+      "divName": "7",
+      "teamName": "Indianapolis Colts",
+      "id": "5USuuMu"
+    },
+    {
+      "divName": "7",
+      "teamName": "Jacksonville Jaguars",
+      "id": "x9zW85z"
+    },
+    {
+      "divName": "7",
+      "teamName": "Tennessee Titans",
+      "id": "LnQZDev"
+    },
+    {
+      "teamName": "Houston Texans",
+      "divName": "7",
+      "id": "Fm3NPU8"
+    },
+    {
+      "teamName": "Kansas City Chiefs",
+      "divName": "8",
+      "id": "VnPjXhY"
+    },
+    {
+      "teamName": "Las Vegas Raiders",
+      "divName": "8",
+      "id": "6XyQN0R"
+    },
+    {
+      "teamName": "Los Angeles Chargers",
+      "divName": "8",
+      "id": "2xmrN0Q"
+    },
+    {
+      "divName": "8",
+      "teamName": "Denver Broncos",
+      "id": "74ddxPK"
     }
   ],
   "playerpositions": [
@@ -144,6 +284,40 @@
     {
       "id": "9",
       "position": "Kicker"
+    }
+  ],
+  "divisions": [
+    {
+      "id": "1",
+      "divName": "NFC North"
+    },
+    {
+      "id": "2",
+      "divName": "NFC East"
+    },
+    {
+      "id": "3",
+      "divName": "NFC South"
+    },
+    {
+      "id": "4",
+      "divName": "NFC West"
+    },
+    {
+      "id": "5",
+      "divName": "AFC North"
+    },
+    {
+      "id": "6",
+      "divName": "AFC East"
+    },
+    {
+      "id": "7",
+      "divName": "AFC South"
+    },
+    {
+      "id": "8",
+      "divName": "AFC West"
     }
   ]
 }

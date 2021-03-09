@@ -1,5 +1,11 @@
 import React from "react";
-import { List, Datagrid, TextField, EditButton } from "react-admin";
+import {
+  List,
+  Datagrid,
+  TextField,
+  EditButton,
+  ReferenceField,
+} from "react-admin";
 import Grid from "@material-ui/core/Grid";
 
 const TeamList = (props) => {
@@ -15,6 +21,14 @@ const TeamList = (props) => {
         <List {...props}>
           <Datagrid>
             <TextField label="Team Name" source="teamName" />
+            <ReferenceField
+              label="Division"
+              source="divName"
+              reference="divisions"
+            >
+              <TextField source="divName" />
+            </ReferenceField>
+
             <EditButton />
           </Datagrid>
         </List>

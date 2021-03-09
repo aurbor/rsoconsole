@@ -29,7 +29,7 @@ export const playerList = (props) => {
     <Grid container direction="row" justify="center" alignItems="center">
       <Grid container>
         <Card title="This is a card!">
-          <CardContent>This is some Card Content!</CardContent>
+          <CardContent>Welcome to the Players Screen!</CardContent>
         </Card>
       </Grid>
       <Grid container>
@@ -41,6 +41,7 @@ export const playerList = (props) => {
               label="NFL Team"
               avatar={<Avatar src={seahawks} />}
               source="nflTeam"
+              variant="outlined"
             />
             <NumberField
               label="Avg. Salary"

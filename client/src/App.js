@@ -9,6 +9,7 @@ import PlayerEdit from "./components/playerEdit";
 
 import TeamList from "./components/teamList";
 import TeamEdit from "./components/teamEdit";
+import TeamCreate from "./components/teamCreate";
 
 import SportsFootballIcon from "@material-ui/icons/SportsFootball";
 import PersonIcon from "@material-ui/icons/Person";
@@ -19,14 +20,16 @@ function App() {
       dashboard={Dashboard}
       dataProvider={DataProvider("http://localhost:3000")}
     >
+      <Resource name="playerpositions" />
+      <Resource name="divisions" />
       <Resource
         name="nflteams"
         icon={SportsFootballIcon}
         options={{ label: "NFL Teams" }}
         list={TeamList}
+        create={TeamCreate}
         edit={TeamEdit}
       />
-      <Resource name="playerpositions" />
       <Resource
         name="players"
         icon={PersonIcon}

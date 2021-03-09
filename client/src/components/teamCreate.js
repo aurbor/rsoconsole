@@ -1,16 +1,30 @@
 import React from "react";
 import {
-  Edit,
+  Create,
   SimpleForm,
   TextInput,
+  SelectInput,
+  ReferenceInput,
   FileInput,
   FileField,
-  ReferenceInput,
-  SelectInput,
+  useNotify,
+  useRedirect,
+  useRefresh,
 } from "react-admin";
-const teamEdit = (props) => {
+
+const TeamCreate = (props) => {
+  const notify = useNotify();
+  const redirect = useRedirect();
+  const refresh = useRefresh();
+
+  const onSuccess = () => {
+    notify("Team Added Successfully");
+    redirect("/nflteams");
+    refresh();
+  };
+
   return (
-    <Edit title="Edit Teams" {...props}>
+    <Create title="Create Team" onSuccess={onSuccess} {...props}>
       <SimpleForm>
         <TextInput source="teamName" />
         <ReferenceInput label="Division" source="divName" reference="divisions">
@@ -20,8 +34,8 @@ const teamEdit = (props) => {
           <FileField source="src" title="title" />
         </FileInput>
       </SimpleForm>
-    </Edit>
+    </Create>
   );
 };
 
-export default teamEdit;
+export default TeamCreate;
