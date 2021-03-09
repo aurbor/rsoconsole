@@ -5,7 +5,7 @@
       "name": "Russell Wilson",
       "position": "Quarterback",
       "nflTeam": "Seattle Seahawks",
-      "salary": 40000000,
+      "salary": 41000000,
       "ufaYear": "2025"
     },
     {
@@ -23,6 +23,38 @@
       "nflTeam": "Los Angeles Rams",
       "salary": 15500000,
       "ufaYear": "2023"
+    },
+    {
+      "name": "Tyler Lockett",
+      "position": "Wide Receiver",
+      "nflTeam": "Seattle Seahawks",
+      "ufaYear": "2022",
+      "salary": 16000000,
+      "id": "g31xWfE"
+    },
+    {
+      "name": "Jalen Ramsay",
+      "position": "Defensive Back",
+      "nflTeam": "Los Angeles Rams",
+      "ufaYear": "2022",
+      "salary": 18000000,
+      "id": "KRIskQi"
+    },
+    {
+      "name": "Carlos Dunlop",
+      "position": "Defensive End",
+      "nflTeam": "Seattle Seahawks",
+      "ufaYear": "2022",
+      "salary": 12500000,
+      "id": "ddbVAdd"
+    },
+    {
+      "name": "Cooper Kupp",
+      "position": "Wide Receiver",
+      "nflTeam": "Los Angeles Rams",
+      "ufaYear": "2021",
+      "salary": 14000000,
+      "id": "fC0IANH"
     }
   ]
 }
