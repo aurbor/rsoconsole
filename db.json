@@ -1,0 +1,28 @@
+{
+  "players": [
+    {
+      "id": "1",
+      "name": "Russell Wilson",
+      "position": "Quarterback",
+      "nflTeam": "Seattle Seahawks",
+      "salary": 40000000,
+      "ufaYear": "2025"
+    },
+    {
+      "id": "2",
+      "name": "DeAndre Hopkins",
+      "position": "Wide Receiver",
+      "nflTeam": "Arizona Cardinals",
+      "salary": 17000000,
+      "ufaYear": "2022"
+    },
+    {
+      "id": "3",
+      "name": "Aaron Donald",
+      "position": "Defensive Tackle",
+      "nflTeam": "Los Angeles Rams",
+      "salary": 15500000,
+      "ufaYear": "2023"
+    }
+  ]
+}
