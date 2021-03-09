@@ -72,15 +72,32 @@
     },
     {
       "id": "2",
-      "teamName": "Arizona Cardinals"
+      "teamName": "Arizona Cardinals",
+      "division": "NFC West",
+      "teamLogo": {
+        "rawFile": {
+          "path": "cardinals.png"
+        },
+        "src": "blob:http://localhost:3000/63abfb98-cf47-46b0-84a4-aa504dfdcd9e",
+        "title": "cardinals.png"
+      }
     },
     {
       "id": "3",
-      "teamName": "San Francisco 49ers"
+      "teamName": "San Francisco 49ers",
+      "division": "NFC West"
     },
     {
       "id": "4",
-      "teamName": "Los Angeles Rams"
+      "teamName": "Los Angeles Rams",
+      "division": "NFC West",
+      "teamLogo": {
+        "rawFile": {
+          "path": "rams.png"
+        },
+        "src": "blob:http://localhost:3000/37b6b9aa-3ea3-47dc-96ff-89162354dfd7",
+        "title": "rams.png"
+      }
     }
   ],
   "playerpositions": [
