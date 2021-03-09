@@ -1,5 +1,5 @@
 import React from 'react'
-import { Create, SimpleForm, NumberInput, TextInput, SelectInput, DateInput } from 'react-admin'
+import { Create, SimpleForm, NumberInput, TextInput, SelectInput } from 'react-admin'
 
 const playerCreate = (props) => {
     return (

@@ -56,5 +56,69 @@
       "salary": 14000000,
       "id": "fC0IANH"
     }
+  ],
+  "nflteams": [
+    {
+      "id": "1",
+      "teamName": "Seattle Seahawks",
+      "division": "NFC West",
+      "teamLogo": {
+        "rawFile": {
+          "path": "seahawks.png"
+        },
+        "src": "blob:http://localhost:3000/80f06ba4-f224-4052-abb7-863929aa6a00",
+        "title": "seahawks.png"
+      }
+    },
+    {
+      "id": "2",
+      "teamName": "Arizona Cardinals"
+    },
+    {
+      "id": "3",
+      "teamName": "San Francisco 49ers"
+    },
+    {
+      "id": "4",
+      "teamName": "Los Angeles Rams"
+    }
+  ],
+  "playerpositions": [
+    {
+      "id": "1",
+      "position": "Quarterback"
+    },
+    {
+      "id": "2",
+      "position": "Running Back"
+    },
+    {
+      "id": "3",
+      "position": "Wide Receiver"
+    },
+    {
+      "id": "4",
+      "position": "Tight End"
+    },
+    {
+      "id": "5",
+      "position": "Defensive Tackle"
+    },
+    {
+      "id": "6",
+      "position": "Defensive End"
+    },
+    {
+      "id": "7",
+      "position": "Defensive Back"
+    },
+    {
+      "id": "8",
+      "position": "Linebacker"
+    },
+    {
+      "id": "9",
+      "position": "Kicker"
+    }
   ]
 }
